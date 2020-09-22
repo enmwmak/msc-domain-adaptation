@@ -14,3 +14,4 @@ You may need to generate MFCC data in .h5 format. The .h5 file should have 4 fie
 * **spk_ids**: Strings containing the speaker IDs
 * **utt_ids**: Strings containing the utterance IDs
    
+The programs were developed by the first author of this paper.
