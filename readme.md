@@ -9,7 +9,7 @@ Embedding Across Languages, IEEE/ACM Transactions on Audio, Speech and Language 
 
 You may need to generate MFCC data in .h5 format. The .h5 file should have 4 fields:
 
-* **mfccs**: A 2-D array with dimension T x MFCC_dim, where T is the total number of frames
+* **mfcc**: A 2-D array with dimension T x MFCC_dim, where T is the total number of frames
 * **positions**: A 2-D array with dimension N x 2 containing the indexes to the position of each utterance, where N is the total number of utterances. For example, positions[0, 0] is the index of the starting position of first utterance. positions[0, 1] is the index of the ending position of first utterance. 
 * **spk_ids**: Strings containing the speaker IDs
 * **utt_ids**: Strings containing the utterance IDs
