@@ -8,6 +8,8 @@ Embedding Across Languages, IEEE/ACM Transactions on Audio, Speech and Language 
 * "trainer.py" contains codes and classes for training the x-vector network or the densenet.
 * "scorer.py" contains codes and classes for scoring the x-vectors and densenet-based embedding vectors.
 * "datasets.py" contains codes and classes for loading data.
+* "models/readme" contains a URL from which an example Pytorch model file (not fully trained) can be found.
+* "h5/readme" contains a URL from which some example .h5 files for training the networks can be found.
 
 You may need to generate MFCC data in .h5 format. The .h5 file should have 4 fields:
 
