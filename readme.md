@@ -3,9 +3,11 @@ W.W. Lin, M.W. Mak, N. Li, D. Su, and D. Yu, "A Framework for Adapting DNN Speak
 Embedding Across Languages, IEEE/ACM Transactions on Audio, Speech and Language Processing, 2020.
 
 * "run.py" is the starting point for training the x-vector network or the Densent described in the paper. 
-* "model.py" defines the x-vector network. 
-* "densenets.py" defines the densenets.
-* "trainer.py" contains all the neceaary functions and classes.
+* "xvectornet.py" defines the x-vector network.
+* "densenet.py" defines the DenseNet.
+* "trainer.py" contains codes and classes for training the x-vector network or the densenet.
+* "scorer.py" contains codes and classes for scoring the x-vectors and densenet-based embedding vectors.
+* "datasets.py" contains codes and classes for loading data.
 
 You may need to generate MFCC data in .h5 format. The .h5 file should have 4 fields:
 
@@ -14,4 +16,4 @@ You may need to generate MFCC data in .h5 format. The .h5 file should have 4 fie
 * **spk_ids**: Strings containing the speaker IDs
 * **utt_ids**: Strings containing the utterance IDs
    
-The programs were developed by the first author of this paper.
+The programs were developed by W.W. Lin. Some parts of the coded were modified by M.W. Mak
