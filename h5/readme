@@ -2,9 +2,9 @@ http://bioinfo.eie.polyu.edu.hk/download/T-ASLP20/h5
 
 To use these .h5 files with mmd-emb/run.py, you need to create the following symbolic links
 
-* ln -s swbd_sre_combined_no_sil.h5 train_data.h5
-* ln -s sre18_dev_unlabeled_aug.h5 adaptation_data_aug.h5
-* ln -s sre18_dev_unlabeled.h5 adaptation_data.h5
-* ln -s sre18_eval_enroll.h5 mfcc_enroll.h5
-* ln -s sre18_eval_test.h5 mfcc_test.h5
+$ ln -s swbd_sre_combined_no_sil.h5 train_data.h5
+$ ln -s sre18_dev_unlabeled_aug.h5 adaptation_data_aug.h5
+$ ln -s sre18_dev_unlabeled.h5 adaptation_data.h5
+$ ln -s sre18_eval_enroll.h5 mfcc_enroll.h5
+$ ln -s sre18_eval_test.h5 mfcc_test.h5
 
