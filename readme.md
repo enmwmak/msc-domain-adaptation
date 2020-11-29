@@ -1,4 +1,4 @@
-This folder contains the programs for the paper 
+This repository contains the programs for the paper 
 W.W. Lin, M.W. Mak, N. Li, D. Su, and D. Yu, "A Framework for Adapting DNN Speaker
 Embedding Across Languages, IEEE/ACM Transactions on Audio, Speech and Language Processing, 2020.
 
