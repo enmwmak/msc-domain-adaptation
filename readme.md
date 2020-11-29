@@ -10,6 +10,8 @@ Embedding Across Languages, IEEE/ACM Transactions on Audio, Speech and Language 
 * "mmd-emb/trainer.py" contains codes and classes for training the x-vector network or the densenet.
 * "mmd-emb/scorer.py" contains codes and classes for scoring the x-vectors and densenet-based embedding vectors.
 * "mmd-emb/datasets.py" contains codes and classes for loading data.
+* "mmd-emb/scp2h5.py" converts Kaldi .scp files to .h5 files
+* "mmd-emb/combine_h5.py" combines all .h5 files in a given folder to a single .h5 file using virtual datasets.
 * "models/readme" contains a URL from which an example Pytorch model file (not fully trained) can be found.
 * "h5/readme" contains a URL from which some example .h5 files for training the networks can be found.
 
