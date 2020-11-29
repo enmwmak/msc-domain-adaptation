@@ -21,5 +21,11 @@ You may need to generate MFCC data in .h5 format. The .h5 file should have 4 fie
 * **positions**: A 2-D array with dimension N x 2 containing the indexes to the position of each utterance, where N is the total number of utterances. For example, positions[0, 0] is the index of the starting position of the first utterance, and positions[0, 1] is the index of the ending position of the first utterance. 
 * **spk_ids**: Strings containing the speaker IDs
 * **utt_ids**: Strings containing the utterance IDs
-   
-The programs were developed by W.W. Lin. Some parts of the coded were modified by M.W. Mak
+
+You may also need to create the following symbolic links:
+* ln -s /usr/local/kaldi/egs/sre08/v1/sid .
+* ln -s /usr/local/kaldi/egs/wsj/s5/steps .
+* ln -s /usr/local/kaldi/egs/wsj/s5/utils .
+
+
+The programs were developed by W.W. Lin. Some parts of the coded were modified by M.W. Mak.
