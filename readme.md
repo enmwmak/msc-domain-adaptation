@@ -2,12 +2,14 @@ This folder contains the programs for the paper
 W.W. Lin, M.W. Mak, N. Li, D. Su, and D. Yu, "A Framework for Adapting DNN Speaker
 Embedding Across Languages, IEEE/ACM Transactions on Audio, Speech and Language Processing, 2020.
 
-* "run.py" is the starting point for training the x-vector network or the Densent described in the paper. 
-* "xvectornet.py" defines the x-vector network.
-* "densenet.py" defines the DenseNet.
-* "trainer.py" contains codes and classes for training the x-vector network or the densenet.
-* "scorer.py" contains codes and classes for scoring the x-vectors and densenet-based embedding vectors.
-* "datasets.py" contains codes and classes for loading data.
+* "run.sh" is the main script. It converts waveforms to Kaldi scp/ark files, trains an x-vector or a DenseNet, and performs scoring.
+* "scripts/" folder contains the shell and Perl scripts used by run.sh
+* "mmd-emb/run.py" is the starting point for training the x-vector network or the Densent described in the paper. 
+* "mmd-emb/xvectornet.py" defines the x-vector network.
+* "mmd-emb/densenet.py" defines the DenseNet.
+* "mmd-emb/trainer.py" contains codes and classes for training the x-vector network or the densenet.
+* "mmd-emb/scorer.py" contains codes and classes for scoring the x-vectors and densenet-based embedding vectors.
+* "mmd-emb/datasets.py" contains codes and classes for loading data.
 * "models/readme" contains a URL from which an example Pytorch model file (not fully trained) can be found.
 * "h5/readme" contains a URL from which some example .h5 files for training the networks can be found.
 
