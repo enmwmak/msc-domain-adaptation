@@ -8,3 +8,6 @@ $ ln -s sre18_dev_unlabeled.h5 adaptation_data.h5
 $ ln -s sre18_eval_enroll.h5 mfcc_enroll.h5
 $ ln -s sre18_eval_test.h5 mfcc_test.h5
 
+Because swbd_sre_combined_no_sil.h5 contains virtual datasets pointing to the .h5 files in
+swbd_sre_combined_no_sil.h5/, you also need to download all of the .h5 files in 
+swbd_sre_combined_no_sil.h5/.
